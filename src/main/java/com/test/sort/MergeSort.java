@@ -1,4 +1,4 @@
-package com.test;
+package com.test.sort;
 
 /**
  * 归并排序

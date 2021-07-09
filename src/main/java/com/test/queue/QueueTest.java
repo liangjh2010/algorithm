@@ -1,4 +1,4 @@
-package com.test;
+package com.test.queue;
 
 /**
  * 队列
