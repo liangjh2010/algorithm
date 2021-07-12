@@ -2,20 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b65a5800-f702-4281-bf84-0401d3c63911" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/node/BinarySearchTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/LinkTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/link/LinkTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/sort/MergeSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/QueueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/queue/QueueTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/sort/QuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/SortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/sort/SortTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/algorithm.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/test/LinkTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/test/MergeSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/test/QueueTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/test/QuickSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/test/SortTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/test/bsearch/BSearchTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/test/bsearch/BSearchTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,7 +18,21 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/test/node/BinarySearchTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="144" column="38" lean-forward="true" selection-start-line="144" selection-start-column="38" selection-end-line="144" selection-end-column="38" />
+              <folding>
+                <element signature="e#203#204#0" expanded="true" />
+                <element signature="e#242#243#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -61,6 +64,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/test/QuickSort.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/test/link/LinkTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/test/bsearch/BSearchTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/test/node/BinarySearchTree.java" />
       </list>
     </option>
   </component>
@@ -77,19 +81,20 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="674" />
-    <option name="y" value="34" />
-    <option name="width" value="1364" />
-    <option name="height" value="726" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1696" />
+    <option name="height" value="985" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -155,13 +160,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="E:/workspace6/code-server-lgst-boot" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/test/node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -173,6 +179,9 @@
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.test.bsearch" />
       <recent name="com.test" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\workspace_algorithm\algorithm\src\main\java\com\test\node" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -187,7 +196,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BSearchTest">
+  <component name="RunManager" selected="Application.BinarySearchTree">
     <configuration name="BSearchTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.test.bsearch.BSearchTest" />
       <module name="algorithm" />
@@ -201,12 +210,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.test.linked.LinkTest" />
+    <configuration name="BinarySearchTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test.node.BinarySearchTree" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.test.linked.*" />
+          <option name="PATTERN" value="com.test.node.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -255,11 +264,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinarySearchTree" />
         <item itemvalue="Application.BSearchTest" />
         <item itemvalue="Application.QuickSort" />
         <item itemvalue="Application.MergeSort" />
         <item itemvalue="Application.SortTest" />
-        <item itemvalue="Application.LinkTest" />
       </list>
     </recent_temporary>
   </component>
@@ -285,16 +294,18 @@
       <workItem from="1625618098163" duration="4464000" />
       <workItem from="1625625248101" duration="618000" />
       <workItem from="1625704287683" duration="683000" />
+      <workItem from="1626053459824" duration="1967000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41730000" />
+    <option name="totallyTimeSpent" value="43697000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1696" height="985" extended-state="6" />
+    <frame x="-8" y="-8" width="1696" height="985" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16198044" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16381419" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -303,8 +314,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.28084606" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.586369" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.18096358" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.48766157" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -403,6 +414,18 @@
           <properties />
           <option name="timeStamp" value="19" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/test/node/BinarySearchTree.java</url>
+          <line>71</line>
+          <properties />
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/test/node/BinarySearchTree.java</url>
+          <line>81</line>
+          <properties />
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -456,6 +479,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9">
           <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/node/BinarySearchTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="144" column="38" lean-forward="true" selection-start-line="144" selection-start-column="38" selection-end-line="144" selection-end-column="38" />
+          <folding>
+            <element signature="e#203#204#0" expanded="true" />
+            <element signature="e#242#243#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
